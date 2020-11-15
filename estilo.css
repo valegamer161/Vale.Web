@@ -1,0 +1,51 @@
+/*color De Las Palabras*/
+
+.h1-1 {
+
+   color: blue;
+}
+
+p {
+
+   color: orange;
+}
+
+h2 {
+
+   color: purple;
+}
+
+/*Modificacion En General De Letra /Tamaño/Espacio De letra*/
+
+* {
+
+padding: 0px;
+margin: 0px;
+
+}
+
+/*Modificacion De Diferentes Parrafos De Letra /Tamaño/Espacio De letra*/
+
+.h1-1 {	
+font-size: 25mm;
+line-height: 1.5;
+font-weight: 400;
+} 
+
+.h2-1 {	
+font-size: 10mm;
+line-height: 1.5;
+font-weight: 400;
+
+
+} 
+
+
+
+.p-1 {	
+font-size: 6mm;
+line-height: 1.5;
+font-weight: 900;
+font-family: 'Roboto', sans-serif;
+} 
+
