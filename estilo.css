@@ -1,11 +1,98 @@
-/*color De Las Palabras*/
+/*Ancho de todas la palabras entre el margen y el texto*/ 
+
+/*Login/register**/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+   background: url(Fotos/imagen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: black;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p {
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+
+/*Partes Externas*/
 
 .h1-1 {
 
-   color: blue;
+   background-color: gray;
+   padding-left: 50px;
+   border-radius: 60px;
+   border: 4px solid black;
+   box-shadow: 2px 4px 30px  red;
+   text-shadow: 5px 5px 8px black;
+
 }
 
-p {
+
+p-login {
 
    color: orange;
 }
@@ -13,6 +100,7 @@ p {
 h2 {
 
    color: purple;
+
 }
 
 /*Modificacion En General De Letra /Tamaño/Espacio De letra*/
@@ -36,16 +124,205 @@ font-weight: 400;
 font-size: 10mm;
 line-height: 1.5;
 font-weight: 400;
+padding-left: 300px;
+padding-bottom: 20mm;
+text-shadow: 5px 5px 4px black;
 
+} 
+
+.h1-2 {
+
+position: relative;
+font-size: 6mm;
+line-height: 1.5;
+font-weight: 900;
+margin: 10px;
+width: 350px;
+height: 40px;
+border: 4px solid red;
+background: grey;
+left: 460px;
+bottom: 50px;
+} 
+
+.h2-2 {	
+position: relative;
+font-size: 6mm;
+line-height: 1.5;
+font-weight: 900;
+margin: 30px;
+width: 800px;
+height: 250px;
+border: 4px solid red;
+background: grey;
+overflow: auto;
+left: 220px;
+top: 50px;
 
 } 
 
 
+.h2-de-que-es-la-programacion {
+position: relative;
+margin: 30px;
+width: 300px;
+height: 40px;
+border: 3px solid red;
+background: grey;
+left: 470px;
+bottom: 30px;
+top: 100px;
+} 
 
-.p-1 {	
+
+.p-1 { 	
 font-size: 6mm;
 line-height: 1.5;
 font-weight: 900;
 font-family: 'Roboto', sans-serif;
+margin: 10px;
+width: 500px;
+height: 250px;
+border: 4px solid red;
+background: grey;
+left: 500px;
+
 } 
+
+.h2-de-que-es-la-programacion2 {
+position: relative;
+font-size: 6mm;
+line-height: 1.5;
+font-weight: 900;
+margin: 30px;
+width: 800px;
+height: 250px;
+border: 4px solid red;
+background: grey;
+overflow: auto;
+left: 220px;
+top: 200px;
+} 
+
+
+
+
+/*Color De Lo links De Cada Pagina*/
+
+
+.inicio {
+font-family: 'Roboto', sans-serif;
+margin: 30px;
+width: 900px;
+height: 100px;
+border: 4px solid red;
+background: grey;
+left: 220px;
+top: 200px;
+
+}
+
+
+.cuenta {
+font-family: 'Roboto', sans-serif;
+margin: 30px;
+width: 800px;
+height: 250px;
+border: 4px solid red;
+background: grey;
+left: 220px;
+top: 200px;
+}
+
+
+.nosotros {
+font-family: 'Roboto', sans-serif;
+margin: 30px;
+width: 800px;
+height: 250px;
+left: 900px;
+border: 4px solid red;
+background: grey;
+left: 220px;
+top: 200px;
+}
+
+
+.registrar {
+font-family: 'Roboto', sans-serif;
+margin: 30px;
+border: 4px solid red;
+background: grey;
+}
+
+
+
+/*Menu De Inicio*/
+
+
+.nav__responsive-ul {
+
+
+display: none;
+
+
+}
+
+.nav {
+	background-color: #48e;
+
+}
+
+
+.nav-2{
+
+
+
+
+
+}
+
+.nav__li {
+
+display: inline-block;
+padding: 20px;
+
+}
+
+
+.nav__li:hover > a {
+
+color: pink;
+
+}
+
+.nav__li:hover  {
+
+color: pink;
+
+}
+
+.nav__li a {
+
+color: #fff;
+text-decoration: none;
+
+}
+
+.nav__li i {
+
+
+box-sizing: border-box;
+text-align: center;
+margin-right: 5px; 
+}
+
+ .nav__respocive-button {
+float: right;
+font-size: 25px;
+padding: 6px 20px;
+
+
+ }
+
 
